@@ -8,7 +8,7 @@
 Name:       taglib	
 Summary:    Audio Meta-Data Library
 Version:    1.8
-Release:    5.%{snap}%{?dist}
+Release:    7.%{snap}%{?dist}
 
 License:    LGPLv2
 #URL:       http://launchpad.net/taglib
@@ -129,6 +129,12 @@ make check -C %{_target_platform}
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.8-7.20130218git
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.8-6.20130218git
+- Mass rebuild 2013-12-27
+
 * Mon Feb 18 2013 Rex Dieter <rdieter@fedoraproject.org> 1.8-5.20130218git
 - 20120218git snapshot
 
